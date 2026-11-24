@@ -1,0 +1,18 @@
+{
+  "id": "pet-smooth-scaling",
+  "name": "宠物平滑缩放",
+  "version": "1.0.0",
+  "description": "让原生悬浮宠物使用平滑缩放，减轻边缘锯齿。",
+  "engines": {
+    "codexpp": 1
+  },
+  "renderer": [
+    "renderer.js"
+  ],
+  "permissions": {
+    "routes": [
+      "/cdp/evaluate"
+    ]
+  },
+  "repository": "xyxkgjx/codexpp-pet-smooth-scaling"
+}
